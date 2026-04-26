@@ -32,6 +32,41 @@ body{
     padding-top: 20px;
 }
 
+.hero{
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.right, .left{
+    flex: 1;
+}
+
+.right{
+    height: 200px;
+    width: auto;
+    flex: 0.5;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button.button-1{
+    align-self: flex-start;
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px 25px;
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 .links{
     display: flex;
     gap: 30px;
@@ -44,6 +79,32 @@ body{
 .title{
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.container{
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.info-1, .info-2, .info-3, .info-4{
+    display: flex;
+  flex-flow: column wrap;
+  width: 200px;
+  align-items: center;
+  text-align: center;
+}
+
+.info-img{
+    border: #3882F6;
+    border-style:solid;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 15px;
 }
 
 .links, .info-text, .footer-text{
@@ -62,6 +123,8 @@ h2{
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    text-align: center;
+    margin: 50px;
 }
 
 .button-1, .button-2{
